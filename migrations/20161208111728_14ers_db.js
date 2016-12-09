@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.string('name');
     table.integer('altitude');
-    table.string('difficulty');
+    table.string('text');
   })
 };
 
